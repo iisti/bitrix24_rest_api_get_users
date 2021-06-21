@@ -1,0 +1,4 @@
+# Documentation and shell UI
+docopt
+# For making requests to APIs
+requests
