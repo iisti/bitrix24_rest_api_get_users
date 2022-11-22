@@ -18,7 +18,8 @@ Script for retrieving users from Bitrix24.
 1. Create virtual environment
 
        virtualenv bitrix24_rest_api_get_users/virtualenv
-       # If you get error "virtualenv: command not found", relogin into shell and try again.
+
+    * If you get error `virtualenv: command not found`, relogin into shell and try again.
 1. Activate virtual environment
 
        source bitrix24_rest_api_get_users/virtualenv/bin/activate
@@ -31,10 +32,10 @@ Script for retrieving users from Bitrix24.
        deactivate
 
 1. Install modules
-
-        # Remember to activate virtualenv before
+    * Remember to activate virtualenv before
+        ~~~
         pip3 install -r requirements.txt
-
+        ~~~
 
 
 ## Create an Application/Webhook (this is necessary)
