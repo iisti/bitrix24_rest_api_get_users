@@ -9,7 +9,11 @@ Script for retrieving users from Bitrix24.
 1. Clone the repository
 
        git clone https://github.com/iisti/bitrix24_rest_api_get_users.git
-1. Install Python3 and pip3
+1. Make `get_user.py executable`
+    ~~~
+    chmod u+x bitrix24_rest_api_get_users/get_users.py
+    ~~~
+3. Install Python3 and pip3
 
        sudo apt-get install python3 python3-pip
 1. Install virtualenv using pip3
