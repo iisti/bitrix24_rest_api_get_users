@@ -9,7 +9,11 @@ Script for retrieving users from Bitrix24.
 1. Clone the repository
 
        git clone https://github.com/iisti/bitrix24_rest_api_get_users.git
-1. Install Python3 and pip3
+1. Make `get_user.py executable`
+    ~~~
+    chmod u+x bitrix24_rest_api_get_users/get_users.py
+    ~~~
+3. Install Python3 and pip3
 
        sudo apt-get install python3 python3-pip
 1. Install virtualenv using pip3
@@ -18,7 +22,8 @@ Script for retrieving users from Bitrix24.
 1. Create virtual environment
 
        virtualenv bitrix24_rest_api_get_users/virtualenv
-       # If you get error "virtualenv: command not found", relogin into shell and try again.
+
+    * If you get error `virtualenv: command not found`, relogin into shell and try again.
 1. Activate virtual environment
 
        source bitrix24_rest_api_get_users/virtualenv/bin/activate
@@ -31,10 +36,10 @@ Script for retrieving users from Bitrix24.
        deactivate
 
 1. Install modules
-
-        # Remember to activate virtualenv before
+    * Remember to activate virtualenv before
+        ~~~
         pip3 install -r requirements.txt
-
+        ~~~
 
 
 ## Create an Application/Webhook (this is necessary)
